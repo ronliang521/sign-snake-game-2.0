@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html lang="zh">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>SIGN贪吃蛇</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="game-container">
+        <h1>SIGN贪吃蛇</h1>
+        <div class="score-container">
+          <span>分数: </span>
+          <span id="score">0</span>
+        </div>
+        <canvas id="game-canvas" width="600" height="600"></canvas>
+        <div class="direction-controls">
+          <button id="up-btn" class="direction-btn">↑</button>
+          <div class="horizontal-controls">
+            <button id="left-btn" class="direction-btn">←</button>
+            <button id="right-btn" class="direction-btn">→</button>
+          </div>
+          <button id="down-btn" class="direction-btn">↓</button>
+        </div>
+        <div class="controls">
+          <button id="start-btn">开始游戏</button>
+          <button id="restart-btn">重新开始</button>
+        </div>
+      </div>
+      <script type="module" src="./src/main.js"></script>
+    </body>
+    </html>
